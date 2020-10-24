@@ -13,10 +13,10 @@ This repo is used to provide some code samples to go along side a tutorial in Se
  * The LD_PRELOAD hijack code
  * A make file to build it easily in a Kali VM.
  
-The goal of this tutorial is to show how to hijack functions using LD_PRELOAD to hijack imported functions in a binary. In this case we have a guessing game as a tutorial and will be using LD_PRELOAD to cheat in it by hijacking rand() and making it return a static value of 42, making the random guessing game not-so-random and a lot easier to win.
+The goal of this tutorial is to show how to use LD_PRELOAD to hijack imported functions in a binary. In this case we have a random number guessing game as a tutorial and will be using LD_PRELOAD to cheat in it by hijacking ```rand()``` and making it return a static value of 42, making the random number guessing game not-so-random and a lot easier to win.
 
 ## Building The Code Using Make.
-Once you clone the repo, simply change into the directory and run ```make``` or ```make all``` to build both the game and LD_PRELOAD hijack shared object. The make file also includes a help option to show all of the build targets:
+Once you clone the repo, simply change into the directory and run ```make``` or ```make all``` to build both the game and the LD_PRELOAD hijack shared object. The make file also includes a help option to show all of the build targets:
 
 ```
 kali@kali:~$ make help
