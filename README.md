@@ -4,7 +4,7 @@ Code samples to go along with the blog post on using LD_PRELOAD to hijack rand()
 ## Links to Tutorials
 Blog: TODO - FILL IN WHEN READY
 
-YouTube: TODO - FILL IN WHEN READY
+YouTube: https://youtu.be/pZCMxm1X7QU
 
 ## Overview
 This repo is used to provide some code samples to go along side a tutorial in Secure Ideas blogs and videos. This code repo will provide you with the code for:
