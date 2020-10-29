@@ -2,7 +2,7 @@
 Code samples to go along with the blog post on using LD_PRELOAD to hijack rand() in a number guessing game.
 
 ## Links to Tutorials
-Blog: TODO - FILL IN WHEN READY
+Blog: https://blog.secureideas.com/2020/10/not-so-random-using-ld_preload-to-hijack-the-rand-function.html
 
 YouTube: https://youtu.be/pZCMxm1X7QU
 
